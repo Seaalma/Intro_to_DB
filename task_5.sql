@@ -1,7 +1,8 @@
 -- Use the alx_book_store database
 USE alx_book_store;
 
--- Insert a single row into the Customers table
-INSERT INTO Customers (customer_id, customer_name, email, address)
-VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.')
-mysql -u root -p your_database_name < task_5.sql
+-- Insert a single row into the customer table (lowercase)
+INSERT INTO customer (customer_id, customer_name, email, address)
+VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
+SHOW TABLES;
+
