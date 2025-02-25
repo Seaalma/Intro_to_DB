@@ -1,3 +1,6 @@
+-- Use the alx_book_store database
+USE alx_book_store;
+
+-- Show all tables in the alx_book_store database
 SHOW TABLES;
-mysql -u root -p your_database_name < task_3.sql
-mysql -u root -p -e "source task_3.sql" alx_book_store
+mysql -u root -p < task_3.sql
